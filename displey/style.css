@@ -1,0 +1,279 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justifly-between {
+    justify-content: space-between;
+}
+
+.img {
+    width: 24%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #00c1c1;
+}
+
+.nav {
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.logo-holder a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    transition: color .3s;
+}
+
+.logo-holder a:hover,
+.navbar li:hover {
+    color: grey;
+}
+
+.header .logo-holder {
+    padding: 10px 15px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    transition: color .3s;
+}
+
+#basdig {
+    background-image: url(https://bootstrapmade.com/demo/themes/Alstar/img/intro/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.basdigtext {
+    color: white;
+}
+
+.basdigtext h2 {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.basdigtext p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0 -200px;
+}
+
+.read {
+    padding: 20px 25px;
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    transition: background-color .3s;
+    text-align: center;
+    margin: 20px;
+}
+
+.read:hover {
+    background-color: #155d74;
+}
+
+.about {
+    text-align: center;
+    margin: 80px;
+}
+
+.ikisekil {
+    width: 100%;
+    height: 350px;
+}
+
+.ikimg img {
+    margin: 80px 0 0 50px;
+    width: 42%;
+    float: left;
+}
+
+.ikitext {
+    width: 50%;
+    float: left;
+    margin: 0 0 0 41px;
+}
+
+.about h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.xett {
+    margin: 40px;
+}
+
+.ikitext h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    opacity: 0.6;
+}
+
+.ikitext h3 {
+    margin: 25px;
+    opacity: 0.4;
+}
+
+.ikitext p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
+}
+
+.about p {
+    opacity: 0.6;
+}
+
+.xett {
+    width: 80px;
+    height: 1px;
+    border: none;
+    background-color: black;
+    margin: 20px 0px 30px 47%;
+}
+
+.ikin {
+    width: 1170px;
+}
+
+#details {
+    background-image: url(https://bootstrapmade.com/demo/themes/Alstar/img/parallax/1.jpg);
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 200px 0;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 35px;
+}
+
+.ucuncu {
+    width: 100%
+}
+
+.ucsekil img {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 4px;
+    width: 400px;
+}
+
+.uctext h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.uctext {
+    margin: 30px 100px 0 200px;
+}
+
+.container {
+    width: 80%;
+}
+
+#detai {
+    background-image: url(https://bootstrapmade.com/demo/themes/Alstar/img/parallax/2.jpg);
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 200px 0;
+}
+
+.imga {
+    width: 24%;
+    height: 270px;
+    text-align: center;
+}
+
+.imga img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imga h4 {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.imga p {
+    opacity: 0.6
+}
+
+.cont {
+    width: 90%;
+    margin: auto;
+}
+
+#son {
+    margin: 200px;
+}
+
+.yazi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name,
+.email,
+.subject,
+.texta {
+    margin: 0 0 20px 350px;
+    width: 100%;
+}
